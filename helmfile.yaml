@@ -1,0 +1,12 @@
+releases:
+  - name: game
+    namespace: development
+    chart: ./charts/game
+    values:
+      - ./values/game.yaml
+
+  - name: graphql
+    namespace: development
+    chart: ./charts/graphql
+    values:
+      - ./values/graphql.yaml
